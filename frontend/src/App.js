@@ -8,9 +8,10 @@ import './App.css';
 // const API_BASE_URL = 'http://localhost:8000';
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
 
+
 function App() {
   const [models, setModels] = useState([]);
-  const [selectedModel, setSelectedModel] = useState('llama2');
+  const [selectedModel, setSelectedModel] = useState('qwen2.5:0.5b');
   const [health, setHealth] = useState(null);
   const [chatMessage, setChatMessage] = useState('');
   const [chatHistory, setChatHistory] = useState([]);

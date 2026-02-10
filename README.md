@@ -180,7 +180,7 @@ sudo apt install -y python3-pip python3-venv nginx
 
 qwen2.5:0.5b
 
-http://3.80.136.92:8000/api/health
+http://35.153.106.247:8000/api/health
 
 
 
@@ -192,7 +192,7 @@ http://3.80.136.92:8000/api/health
 
 
 
-REACT_APP_API_URL=http://98.82.135.92:8000
+REACT_APP_API_URL = http://98.82.135.92
 
 const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:8000';
 

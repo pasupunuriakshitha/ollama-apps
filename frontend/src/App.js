@@ -109,7 +109,7 @@ function App() {
                 <option key={model} value={model}>{model}</option>
               ))
             ) : (
-              <option value="llama2">llama2</option>
+              <option value="qwen2.5:0.5b">qwen2.5:0.5b</option>
             )}
           </select>
         </div>
